@@ -64,6 +64,7 @@ export const SkillCom = styled.ul`
 export const FooterCon = styled.footer`
     background: #333;
     position: fixed;
+    text-align: center;
     bottom: 0;
     width: 100%;
     color: white;

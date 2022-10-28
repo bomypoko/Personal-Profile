@@ -9,7 +9,8 @@ function Footer() {
 
     <FooterCon>
 
-           <p> This project was build the upcoming final interview on October 1st 2022</p>
+           <p> copyright © 2022 </p>
+           
     </FooterCon>
   )
 }

@@ -17,10 +17,8 @@ function About() {
         <h1> 
             About 
         </h1>
-
-        <hr /> 
-
         
+        <hr /> 
 
             <div style={{ textAlign: 'center' , margin: '2rem 0'}}>
 
@@ -47,8 +45,6 @@ function About() {
                     </SkillCom>
             </div>
       
-
-
     </Container>
   )
 }

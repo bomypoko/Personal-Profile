@@ -1,11 +1,7 @@
 import { useState , useEffect , createContext } from 'react'
 import axios from 'axios'
 import { Routes, Route } from 'react-router-dom'
-import reactLogo from './assets/react.svg'
 import './App.css'
-
-
-
 
 
 import Home from './components/Home'
@@ -19,6 +15,7 @@ export const DataContext = createContext();
 
 
 function App() {
+
   const [data , setData] = useState([])
 
   useEffect(() => {

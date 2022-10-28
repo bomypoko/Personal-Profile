@@ -24,7 +24,7 @@ function Home() {
 
                 <li style={{ fontSize: '1.2rem'}}><strong> Title </strong> : {data.basics?.headline} </li>     
 
-                {data.education?.map(( val , idx) => (
+                {data.education?.map((val , idx) => (
                     <li key={idx}>
                       <strong>University</strong>: {val.institution}
                       <br/>
